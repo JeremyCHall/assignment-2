@@ -1,0 +1,26 @@
+.my-name {
+    margin: auto;
+    text-align: center;
+    border-style: double;
+    width: 12%;
+    height: 5%;
+    padding:  10px;
+}
+.main-image{
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    transition: all 1s;
+}
+.main-image:hover{
+transform: scale(.8) rotate(15deg)
+
+}    
+.favgames{text-align: right;
+}
+
+p {
+
+}
