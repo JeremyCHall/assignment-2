@@ -1,4 +1,5 @@
 .my-name {
+    background-color: green;
     margin: auto;
     text-align: center;
     border-style: double;
@@ -15,12 +16,36 @@
     transition: all 1s;
 }
 .main-image:hover{
-transform: scale(.8) rotate(15deg)
+    transform: scale(.8) rotate(15deg)
 
 }    
-.favgames{text-align: right;
+.favgames{
+    padding: 10px;
+    background-color: red;
+    display: inline;
+    float: right;
+    font-size: 50px;
 }
-
-p {
-
+.simgear{
+    padding: 10px;
+    border: 8px solid red;
+    display: inline;
+    float: left;
+    font-size: 50px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+}
+.footer-left{
+    display: inline;
+    float: left;
+}
+.footer-center{
+    display: inline;
+    float: center;
+}
+.footer-right{
+    display: inline;
+    float: right;
 }
