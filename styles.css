@@ -28,7 +28,7 @@
 }
 .simgear{
     padding: 10px;
-    border: 8px solid red;
+    background-color: red;
     display: inline;
     float: left;
     font-size: 50px;
