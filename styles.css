@@ -1,10 +1,12 @@
 .my-name {
+    display: flex;
+    justify-content: space-around;
     background-color: green;
-    margin: auto;
-    text-align: center;
     border-style: double;
-    width: 12%;
-    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    height: 8%;
     padding:  10px;
 }
 .main-image{
@@ -17,35 +19,27 @@
 }
 .main-image:hover{
     transform: scale(.8) rotate(15deg)
-
 }    
+.main{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
 .favgames{
     padding: 10px;
     background-color: red;
-    display: inline;
-    float: right;
     font-size: 50px;
 }
 .simgear{
     padding: 10px;
     background-color: red;
-    display: inline;
-    float: left;
     font-size: 50px;
 }
 .bottom{
-    position: fixed;
-    bottom: 0;
-}
-.footer-left{
-    display: inline;
-    float: left;
-}
-.footer-center{
-    display: inline;
-    float: center;
-}
-.footer-right{
-    display: inline;
-    float: right;
+   position: fixed;
+   left: 0; 
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
 }
